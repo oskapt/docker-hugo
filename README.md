@@ -1,5 +1,7 @@
 This is a fork and modification from this repository: https://github.com/oskapt/docker-hugo 
 
+**The current blackfriday (markdown engine) version that hugo uses have a nasty bug related to lists and code blocks, and this why I recomend using only `v0.55.4`. The current image that is in the hugo oficial docs does not have a tag for `v0.55.4`, and this why I had to fork and modify it. Waiting for v0.58.**
+
 `freethebit/hugo` is a [Docker](https://www.docker.io) base image for static sites generated with [Hugo](http://gohugo.io).  
 
 This image is uses the `extended` release of Hugo, which contains support for Sass/SCSS.
@@ -29,9 +31,7 @@ FROM freethebit/hugo
 
 # Gitlab users
 
-In the file `.gitlab-ci.yml` use `image: freethebit/hugo:v0.55.4`, or `image: freethebit/hugo:latest`, but the current blackfriday (markdown engine) version that hugo uses have a nasty bug related to lists and code blocks, and this why I recomend using only `v0.55.4`.
-
-You can check an example on how I use in my simple project in this [link](https://gitlab.com/freethebit/c/blob/f4292d04b895ec901011c7c4adf2daa3b17399ec/.gitlab-ci.yml), the content and theme are submodules, separed projects. 
+In the file `.gitlab-ci.yml` use `image: freethebit/hugo:v0.55.4`, or `image: freethebit/hugo:latest`. You can check an example on how I use in my simple project in this [link](https://gitlab.com/freethebit/c/blob/f4292d04b895ec901011c7c4adf2daa3b17399ec/.gitlab-ci.yml), the content and theme are submodules, separed projects. 
 
 # Building your site
 
