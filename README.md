@@ -1,4 +1,4 @@
-This is fork and modification from this repository: https://github.com/oskapt/docker-hugo 
+This is a fork and modification from this repository: https://github.com/oskapt/docker-hugo 
 
 `freethebit/hugo` is a [Docker](https://www.docker.io) base image for static sites generated with [Hugo](http://gohugo.io).  
 
