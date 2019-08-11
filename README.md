@@ -31,7 +31,7 @@ FROM freethebit/hugo
 
 # Gitlab users
 
-In the file `.gitlab-ci.yml` use `image: freethebit/hugo:v0.55.4`, or `image: freethebit/hugo:latest`. You can check an example on how I use in my simple project in this [link](https://gitlab.com/freethebit/c/blob/f4292d04b895ec901011c7c4adf2daa3b17399ec/.gitlab-ci.yml), the content and theme are submodules, separed projects. 
+In the file `.gitlab-ci.yml` use `image: freethebit/hugo:v0.55.4`, or `image: freethebit/hugo:latest`. You can check an example on how I use in my simple project in this [link](https://gitlab.com/freethebit/c/blob/f4292d04b895ec901011c7c4adf2daa3b17399ec/.gitlab-ci.yml), the content and theme are submodules, diferent projects. 
 
 # Building your site
 
