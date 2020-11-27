@@ -2,7 +2,7 @@ FROM debian:buster
 
 # Install pygments (for syntax highlighting) 
 RUN apt-get -qq update \
-	&& DEBIAN_FRONTEND=noninteractive apt-get -qq install -y --no-install-recommends libstdc++6 python-pygments git ca-certificates asciidoc curl \
+	&& DEBIAN_FRONTEND=noninteractive apt-get -qq install -y --no-install-recommends libstdc++6 python-pygments git ssh ca-certificates asciidoc curl \
 	&& rm -rf /var/lib/apt/lists/*
 
 # Configuration variables
