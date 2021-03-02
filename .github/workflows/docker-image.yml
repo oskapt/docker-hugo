@@ -9,5 +9,5 @@ jobs:
       uses: elgohr/Publish-Docker-Github-Action@master
       with:
         name: jae/hugo
-        username: ${{ secrets.DOCKER_USERNAME }}
+        username: ${{ secrets.DOCKER_USER }}
         password: ${{ secrets.DOCKER_PASSWORD }}
