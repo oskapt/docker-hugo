@@ -6,7 +6,7 @@ RUN apt-get -qq update \
 	&& rm -rf /var/lib/apt/lists/*
 
 # Configuration variables
-ENV HUGO_VERSION 0.75.1
+ENV HUGO_VERSION 0.81.0
 ENV HUGO_BINARY hugo_extended_${HUGO_VERSION}_Linux-64bit.deb
 ENV SITE_DIR '/usr/share/blog'
 
